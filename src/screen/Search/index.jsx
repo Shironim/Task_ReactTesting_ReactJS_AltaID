@@ -24,7 +24,7 @@ export default function Search() {
       <h2>Cari Cerita</h2>
       <input onChange={e => setValue(e.target.value)} type="text" placeholder="Tulis Cerita" />
       <button type="button" onClick={handleFetch}>
-        Cari Cerita
+        Cari
       </button> <br />
 
       {error && <span>Ada yang error ...</span>}
